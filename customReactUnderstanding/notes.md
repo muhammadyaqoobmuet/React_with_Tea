@@ -1,0 +1,1 @@
+in this i will be learning how react is working note that this is not actucal working but kind of abstract working or how it works on high level 
