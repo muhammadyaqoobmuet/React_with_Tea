@@ -26,7 +26,7 @@ const domElem = document.createElement(reactElement.type)
 
 
 
- const reactElement ={
+ const reactElement = {
     type: 'a',
     props:{  // properties or attribues
      href:"https://www.sneakyhub.com",
