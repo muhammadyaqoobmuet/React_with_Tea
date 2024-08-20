@@ -1,0 +1,16 @@
+.sideBar {
+    width: 0;
+    overflow: hidden;
+    transition: width 0.2s ease;
+}
+
+.sideBar.active {
+    width: 100%;
+}
+
+/* 640 sa upr  */
+@media (min-width: 640px) { 
+    .sideBar.active {
+        width: 25%;
+    }
+}

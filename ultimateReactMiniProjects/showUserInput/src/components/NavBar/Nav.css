@@ -1,0 +1,19 @@
+.conatinerLinks{
+
+   height: 0;
+    overflow: hidden;
+    transition: all ease-in 0.2s;
+}
+
+.conatinerLinks.active{
+
+    height: 10rem;
+    
+   
+}
+
+@media (min-width:768px) {
+    .chentapakDamam{
+        height:  auto  !important;
+    }
+}
