@@ -91,7 +91,7 @@ Global Styles
 ===============
 */
 
-*,
+/* *,
 ::after,
 ::before {
   margin: 0;
@@ -177,7 +177,7 @@ p {
 .btn:hover {
   color: var(--clr-white);
   background: var(--clr-black);
-}
+} */
 /* section */
 .section {
   padding: 5rem 0;
@@ -194,6 +194,7 @@ p {
     width: 95vw;
   }
 }
+
 /* main {
   min-height: 100vh;
   display: grid;
@@ -204,7 +205,7 @@ p {
 Grocery List
 ===============
 */
-.section-center {
+/* .section-center {
   background: var(--clr-white);
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
@@ -344,4 +345,4 @@ Grocery List
 }
 .clear-btn:hover {
   color: var(--clr-red-dark);
-}
+} */

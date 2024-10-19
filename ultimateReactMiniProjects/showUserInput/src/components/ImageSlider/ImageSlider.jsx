@@ -40,27 +40,27 @@ function ImageSlider({ url, limit = 5 }) {
     return (
         <div className='w-full flex justify-center items-center h-screen'>
             <div className='relative w-[500px] h-[500px] overflow-hidden'>
-                <button 
+                <button
                     onClick={handleLeft}
                     className='absolute left-0 text-white top-1/2 text-2xl py-2 px-4 -translate-y-1/2'>
                     <FaArrowAltCircleLeft />
                 </button>
                 {
-                    imageData && imageData.length ? 
+                    imageData && imageData.length ?
                         imageData.map((image, imageIndex) => (
-                            <div key={image.id} 
-                            className={`${index === imageIndex ? 'block' : 'hidden'} 
+                            <div key={image.id}
+                                className={`${index === imageIndex ? 'block' : 'hidden'} 
                             w-full h-full rounded-md shadow-md`}>
-                                <img 
+                                <img
                                     src={image.download_url}
                                     className='w-full h-full object-cover'
                                     alt='Slider image'
                                 />
                             </div>
                         ))
-                    : null
+                        : null
                 }
-                <button 
+                <button
                     onClick={handleRight}
                     className='absolute right-0 text-white top-1/2 text-2xl py-2 px-4 -translate-y-1/2'>
                     <FaArrowAltCircleRight />
@@ -68,7 +68,7 @@ function ImageSlider({ url, limit = 5 }) {
 
                 <div className='absolute bottom-2 left-0 right-0 flex justify-center'>
                     {
-                        imageData && imageData.length ?  
+                        imageData && imageData.length ?
                             imageData.map((_, idx) => (
                                 <button
                                     onClick={() => setIndex(idx)}
@@ -78,7 +78,7 @@ function ImageSlider({ url, limit = 5 }) {
                                     <FaDotCircle />
                                 </button>
                             ))
-                        : null
+                            : null
                     }
                 </div>
             </div>

@@ -31,7 +31,7 @@ const TabProject = () => {
   const { company, dates, duties, title } = jobs[value];
 
   return (
-    <section className='max-w-[1200px] mx-auto'>
+    <section className='max-w-[1200px] mx-auto ]'>
       <h1 className='text-center font-semibold  text-5xl tracking-wider mt-20'>Experience</h1>
       <div className='bg-[royalblue] w-16 mt-2 h-1 mx-auto'></div>
       <div className='w-full gap-2 mt-2 flex flex-col sm:flex-row '>
@@ -40,7 +40,8 @@ const TabProject = () => {
             <button
               key={item.id}
               onClick={() => setValue(index)}
-              className={`my-4  tracking-widest font-[400] w-full bg-white py-2 text-2xl hover:text-[#87cff4] hover:border-l-8 hover:border-[#145d82] transition-all ${
+              className={`my-4  tracking-widest font-[400] w-full bg-white py-2 text-2xl hover:text-[#87cff4] hover:border-l-8 
+              hover:border-[#145d82] transition-all ${
                 index === value
                   ? 'border-[#145d82] border-l-8 text-[#87cff4]'
                   : 'hover:border-[#145d82] hover:border-l-8 hover:text-[#87cff4]'

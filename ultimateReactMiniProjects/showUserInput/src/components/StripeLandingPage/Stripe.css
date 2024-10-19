@@ -1,0 +1,18 @@
+.landing-page {
+    position: absolute;
+    top: 0;
+    z-index: -10;
+    background-image: url(./background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 45%, 15% 87%, 0 90%);
+  }
+  
+  .sidePage {
+    background-image: url('https://www.evolvepayment.com/wp-content/uploads/2022/08/undraw_Stripe_payments_re_chlm.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  

@@ -1,4 +1,4 @@
- function customRender(reactElement,container){
+ function customRender(reactElement,mainContaier){
    /*
     const domElem = document.createElement(reactElement.type)
     domElem.innerHTML = reactElement.children;

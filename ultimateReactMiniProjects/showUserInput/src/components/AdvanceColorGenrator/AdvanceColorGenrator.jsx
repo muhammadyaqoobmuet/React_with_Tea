@@ -16,6 +16,7 @@ export const AdvanceColorGenrator = () => {
                 return;
             }
             let colors = new Values(color).all(10); 
+           
             setList(colors);
             setError(false);
         } catch (error) {
@@ -29,12 +30,10 @@ export const AdvanceColorGenrator = () => {
         setColor(e.target.value);
     }
 
-    console.log(color);
-    useEffect(()=>{
-        
-    },[])
+    
+   
     return (
-        <main className='w-full'>
+        <main className='w-full overflow-hidden'>
             <div className='flex py-8 px-2 items-center flex-wrap
              sm:flex-auto justify-center  '>
                 <h1 className='text-3xl tracking-widest
